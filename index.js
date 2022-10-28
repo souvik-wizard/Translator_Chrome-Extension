@@ -2,7 +2,7 @@ const options = {
 	method: 'POST',
 	headers: {
 		'content-type': 'application/json',
-		'X-RapidAPI-Key': 'b772aa655cmshd6b3aab9ad7d7e0p10a524jsn57a88a590afb',
+		'X-RapidAPI-Key': config.API_KEY,
 		'X-RapidAPI-Host': 'microsoft-translator-text.p.rapidapi.com'
 	},
 	body: '[{"Text":"I would really like to drive your car around the block a few times."}]'
