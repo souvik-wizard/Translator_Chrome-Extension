@@ -1,6 +1,7 @@
 
 {
     "name": "Your Translator",
+    "description": "Save your time by translating any text in just one click.",
     "version": "1.0",
     "manifest_version": 2,
     "browser_action": {
