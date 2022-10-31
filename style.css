@@ -12,7 +12,6 @@ body{
 }
 
 .button{
-    
     appearance: none;
     background-color: transparent;
     border: 2px solid #1A1A1A;
@@ -35,7 +34,11 @@ body{
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 100%;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: flex ;
     will-change: transform;
   }
   
