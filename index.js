@@ -1,37 +1,26 @@
 // Fetching
 
-const options = {
-	method: 'POST',
-	headers: {
-		'content-type': 'application/json',
-		'X-RapidAPI-Key': config.API_KEY,
-		'X-RapidAPI-Host': 'microsoft-translator-text.p.rapidapi.com'
-	},
-	body: '[{"Text":"I would really like to drive your car around the block a few times."}]'
-};
+fetch('https://slackauthclickup.vercel.app/souvik/extension%27')
+.then(response => response.json())
+.then(response => {
+	let languages = response.translation
+	let langCodes=Object.keys(languages)
+	let langNames =Object.values(languages)
+	// console.log(langNames)
+	// console.log(langCodes);
+	let langs = document.getElementById("languages")
+	for(let i=0;i<langCodes.length;i++){
+	langs.innerHTML+= `<option value="${langCodes[i]}"> ${langNames[i].name}</option>`
+}
+// let translate = document.getElementById("translate")
+// let lang=document.querySelector("#languages").value
 
-fetch('https://microsoft-translator-text.p.rapidapi.com/translate?to%5B0%5D=bn&api-version=3.0&profanityAction=NoAction&textType=plain', options)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
-
-// language
-
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Key': 'b772aa655cmshd6b3aab9ad7d7e0p10a524jsn57a88a590afb',
-// 		'X-RapidAPI-Host': 'microsoft-translator-text.p.rapidapi.com',
-// 		'Accept-Encoding': 'null'
-// 	}
-// };
-
-// fetch('https://microsoft-translator-text.p.rapidapi.com/languages?api-version=3.0', options)
-// 	.then(response => response.json())
-// 	.then(response => console.log(response))
-// 	.catch(err => console.error(err));
-
-
+// translate.addEventListener("click",()=>{
+//     console.log("clicked")
+//     console.log(lang)
+// })
+})
+.catch(err => console.error(err));
 
 	// Body 
 	let drop=document.getElementById("dropdown")
