@@ -18,8 +18,8 @@ fetch('https://slackauthclickup.vercel.app/souvik/extension%27')
 // translate.addEventListener("click",()=>{
 //     console.log("clicked")
 //     console.log(lang)
-// })
 })
+
 .catch(err => console.error(err));
 
 	// Body 
