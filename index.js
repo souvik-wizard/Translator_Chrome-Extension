@@ -1,6 +1,6 @@
 // Fetching
 
-fetch('https://slackauthclickup.vercel.app/souvik/extension%27')
+fetch('https://slackauthclickup.vercel.app/souvik/extension')
 .then(response => response.json())
 .then(response => {
 	let languages = response.translation
@@ -12,12 +12,12 @@ fetch('https://slackauthclickup.vercel.app/souvik/extension%27')
 	for(let i=0;i<langCodes.length;i++){
 	langs.innerHTML+= `<option value="${langCodes[i]}"> ${langNames[i].name}</option>`
 }
-// let translate = document.getElementById("translate")
-// let lang=document.querySelector("#languages").value
+	// let translate = document.getElementById("translate")
+	// let lang=document.querySelector("#languages").value
 
-// translate.addEventListener("click",()=>{
-//     console.log("clicked")
-//     console.log(lang)
+	// translate.addEventListener("click",()=>{
+	// 	console.log("clicked")
+	// 	console.log(lang)
 })
 
 .catch(err => console.error(err));
