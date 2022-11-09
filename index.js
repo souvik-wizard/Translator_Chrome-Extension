@@ -8,25 +8,28 @@ fetch('https://slackauthclickup.vercel.app/souvik/extension')
 	let langNames =Object.values(languages)
 	// console.log(langNames)
 	// console.log(langCodes);
-	let langs = document.getElementById("languages")
+	let langs = document.querySelector("#languages")
 	for(let i=0;i<langCodes.length;i++){
 	langs.innerHTML+= `<option value="${langCodes[i]}"> ${langNames[i].name}</option>`
 }
-	// let translate = document.getElementById("translate")
-	// let lang=document.querySelector("#languages").value
+})
+	let translate = document.getElementById("translate")
+	let lang=document.getElementById("languages")
+	
 
-	// translate.addEventListener("click",()=>{
-	// 	console.log("clicked")
-	// 	console.log(lang)
+	translate.addEventListener("click",()=>{
+		console.log("clicked")
+		console.log(lang.options[lang.selectedIndex].text)
+		console.log(lang.value)
 })
 
 .catch(err => console.error(err));
 
 	// Body 
-	let drop=document.getElementById("dropdown")
-	drop.addEventListener('click',function (){
-		// console.log("clicked")
-		for (let i=0;i<10;i++){
-			drop.createElement('option')	  
-		}
-	})
+	// let drop=document.getElementById("dropdown")
+	// drop.addEventListener('click',function (){
+	// 	// console.log("clicked")
+	// 	for (let i=0;i<10;i++){
+	// 		drop.createElement('option')	  
+	// 	}
+	// })
