@@ -1,4 +1,3 @@
-// Fetching
 
 fetch('https://slackauthclickup.vercel.app/souvik/extension')
 .then(response => response.json())
@@ -6,8 +5,6 @@ fetch('https://slackauthclickup.vercel.app/souvik/extension')
 	let languages = response.translation
 	let langCodes=Object.keys(languages)
 	let langNames =Object.values(languages)
-	// console.log(langNames)
-	// console.log(langCodes);
 	let langs = document.querySelector("#languages")
 	for(let i=0;i<langCodes.length;i++){
 	langs.innerHTML+= `<option value="${langCodes[i]}"> ${langNames[i].name}</option>`
@@ -15,21 +12,28 @@ fetch('https://slackauthclickup.vercel.app/souvik/extension')
 })
 	let translate = document.getElementById("translate")
 	let lang=document.getElementById("languages")
-	
 
 	translate.addEventListener("click",()=>{
-		console.log("clicked")
-		console.log(lang.options[lang.selectedIndex].text)
-		console.log(lang.value)
+		let translateto=lang.value
+		let yourtext=document.getElementById("text").value
+		const options = {
+			method: 'POST',
+			headers: {
+				'content-type': 'application/json',
+				'X-RapidAPI-Key': config.mykey,
+				'X-RapidAPI-Host': 'microsoft-translator-text.p.rapidapi.com'
+			},
+			body: `[{"Text":"${yourtext}"}]`
+		};	
+		fetch(`https://microsoft-translator-text.p.rapidapi.com/translate?to%5B0%5D=${translateto}&api-version=3.0&profanityAction=NoAction&textType=plain`, options)
+			.then(response => response.json())
+			.then(response => {
+				let resulttext=response[0].translations[0].text
+				let displaytext=document.getElementById("display")
+				displaytext.innerText=resulttext
+
+			})
+			.catch(err => console.error(err));
 })
 
 .catch(err => console.error(err));
-
-	// Body 
-	// let drop=document.getElementById("dropdown")
-	// drop.addEventListener('click',function (){
-	// 	// console.log("clicked")
-	// 	for (let i=0;i<10;i++){
-	// 		drop.createElement('option')	  
-	// 	}
-	// })

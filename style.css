@@ -7,10 +7,22 @@ body{
     background-color: #DFF6FF;
     padding: 30px;
 }
+
 .head{
     text-align: center;
 }
 
+.textbox{
+  background-color: #dddddd;
+  color: #666666;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+#clipboard{
+  height: 20px;
+  width: 20px;
+}
 .button{
     appearance: none;
     background-color: transparent;
