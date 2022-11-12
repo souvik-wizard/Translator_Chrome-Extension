@@ -2,32 +2,129 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    height: 300px;
+    height: 330px;
     width: 500px;
-    background-color: #DFF6FF;
-    padding: 30px;
+    background-color: #FDFDFD;
+    margin: 0;
+    padding: 0;
 }
 
-.head{
-    text-align: center;
-}
+.container{
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight:bold;
+  font-size: 1.5rem;
+  height: 50px;
+  margin: auto;
+  background-color: #08D9D6;
+}
+#textarea{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.dropbtn{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
 .textbox{
+  resize: none;
   background-color: #dddddd;
-  color: #666666;
+  color: #000000;
   padding: 1em;
   border-radius: 10px;
+  border:2px solid transparent;
+  outline: none;
+  font-family: 'Heebo',sans-serif;
+  font-size: medium;
+  line-height: 1.4;
+  width: 200px;
+  height: 50px;
+  transition:all 0.2s;
+}
+.textbox:hover{
+  cursor: pointer;
+  background-color: #eeeeee;
+}
+.textbox:focus{
+  cursor: text;
+  color: #333333;
+  background-color: white;
+  border-color: #666666;
+
 }
 
 #clipboard{
   height: 20px;
   width: 20px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+
 }
+#languages{
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px 5px/20px 5px;
+  outline: none;
+  border: 2px solid #08D9D6;
+}
+#clipboard:hover{
+  cursor: pointer;
+  transform:scale(1.1);
+  background-color: #CDFCF6;
+  border-radius: 10px 5px/10px 5px;
+}
+
+/* Copybtn */
+.tooltip {
+  display:inline-block;
+  position:relative;
+  text-align:center;
+}
+
+.tooltip .right {
+  width:50px; 
+  height: 30px;
+  top:50%;
+  left:100%;
+  margin-left:20px;
+  transform:translate(0, -50%);
+  padding:5px;
+  color:#444444;
+  background-color:#EEEEEE;
+  font-weight:bold;
+  font-size:15px;
+  border-radius:8px;
+  position:absolute;
+  z-index:99999999;
+  box-sizing:border-box;
+  box-shadow:0 1px 8px rgba(0,0,0,0.2);
+  visibility:hidden;
+  opacity:0; 
+  transition:opacity 0.8s;
+}
+
+.tooltip:hover .right {
+  visibility:visible; opacity:1;
+}
+
+
+/* Translate Button */
 .button{
     appearance: none;
     background-color: transparent;
-    border: 2px solid #1A1A1A;
-    border-radius: 15px;
+    border: 2px solid #08D9D6;
+    border-radius: 20px 5px/20px 5px;
     box-sizing: border-box;
     color: #3B3B3B;
     cursor: pointer;
@@ -35,7 +132,6 @@ body{
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
-    margin: 0;
     min-height: 60px;
     min-width: 0;
     outline: none;
@@ -49,7 +145,6 @@ body{
     width: 30%;
     justify-content: center;
     text-align: center;
-    margin: auto;
     display: flex ;
     will-change: transform;
   }
@@ -59,8 +154,8 @@ body{
   }
   
   .button:hover {
-    color: #fff;
-    background-color: #1A1A1A;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom right,#47B5FF,#CDFCF6,#7DE5ED);
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
   }

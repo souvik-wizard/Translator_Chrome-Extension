@@ -8,18 +8,20 @@
     <title>Your Translator</title>
 </head>
 <body>
-
-    <h2 class="head">Your Translator</h2>
-
+    <div class="container">Your Translator</div>
+    <div id="textarea">
     <textarea rows="3" id="text" class="textbox" placeholder="Write/Paste your text here."></textarea> 
-
-    <select id="languages"></select>
-
-    <button class="button" id="translate" role="button">Translate</button>
-
     <textarea rows="3" id="display" class="textbox" placeholder="Translated text will appear here."></textarea>
+    </div>
+    <div class="dropbtn">
+        <div class="btn btn-primary tooltip"><img src="clipboard.png" alt="" id="clipboard">
+            <div class="right">Copy</div>
+        </div>
+        <select id="languages"></select>
+        <button class="button" id="translate" role="button">Translate</button>
+    </div>
 
-    <img src="clipboard.png" id="copybtn" alt="copt to clipboard" id="clipboard">
+
   
 </body>
 <script src="config.js"></script>
