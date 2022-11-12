@@ -1,4 +1,3 @@
-
 fetch('https://slackauthclickup.vercel.app/souvik/extension')
 .then(response => response.json())
 .then(response => {
@@ -31,14 +30,11 @@ fetch('https://slackauthclickup.vercel.app/souvik/extension')
 				let resulttext=response[0].translations[0].text
 				let displaytext=document.getElementById("display")
 				displaytext.innerText=resulttext
-				var copybtn=document.getElementById('clipboard')
+				let copybtn=document.getElementById('clipboard')
 				copybtn.addEventListener("click",() =>{
-					console.log(resulttext)
 					navigator.clipboard.writeText(resulttext)
 				})
-
 			})
 			.catch(err => console.error(err));
 })
-
 .catch(err => console.error(err));
