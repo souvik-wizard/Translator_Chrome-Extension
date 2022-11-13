@@ -38,9 +38,9 @@ Don't forget to give the project a star! Thanks again!
 
 * Thanks for the support [Tuhin](https://github.com/TuhinBar) and [Arian](https://github.com/arian0zen).
   
-* [Discord](https://discord.com/)
+<!-- * [Discord](https://discord.com/)
 * [Youtube](https://youtube.com)
-* [Color hunt](https://colorhunt.co)
+* [Color hunt](https://colorhunt.co) -->
 
 ## Previews:
 
