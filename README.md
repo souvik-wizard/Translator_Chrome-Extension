@@ -2,12 +2,11 @@
 
 ## Introduction :
 
-- This is a very usefull chrome extension for everyone who usually use internet(google) to translate their text.
+- This is a very useful chrome extension for everyone who usually uses the internet(google) to translate their text.
 - There are total 112 languages (including Indian languages) where you can translate your text.
  
 ## Process :
 
-- I have creted this extension using API from RapidAPI.
 - This is a simple chrome extension using [![Javascipt](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/) [![Html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.com/) [![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/Overview.en.html).
 - I used Fetch to make the API call and stored them dynamically in </select> html tag for dropdown.
 - You can check out the [Manifest](https://github.com/souvik-wizard/Translator_Chrome-Extension/blob/master/manifest.json) here for this extension, it is required to make a chrome extension.
@@ -15,7 +14,7 @@
 
 ## Usage:
 
-- This extension can be helpful for those who usually use internet(google) to translate their text to know the actual meaning in their preferable language.
+- This extension can be helpful for those who usually use the internet(google) to translate their text to know the actual meaning in their preferred language.
 - There is a copy to clipboard button also for saving the output into clipboard for further use.
 - This extension will definitely gonna save your time.
 
@@ -33,12 +32,11 @@ Don't forget to give the project a star! Thanks again!
 
 ## Acknowledgments:
 
-After learning process, projects converts that leaning meterial to experiences.
+After the learning process, projects converts that leaning meterial to experiences.
 A lot of fun and exitement was in there when I was working on it.
 
 * The acknowledgement goes to [Tuhin](https://github.com/TuhinBar) for helping me.
   
-* [RapidAPI](https://rapidapi.com/hub)
 * [Discord](https://discord.com/)
 * [Youtube](https://youtube.com)
 * [Color hunt](https://colorhunt.co)
