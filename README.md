@@ -36,7 +36,7 @@ Don't forget to give the project a star! Thanks again!
 After the learning process, projects converts that leaning meterial into experiences.
 A lot of fun and exitement was in there when I was working on it.
 
-* The acknowledgement goes to [Tuhin](https://github.com/TuhinBar) for helping me.
+* [Tuhin](https://github.com/TuhinBar) and [Arian](https://github.com/arian0zen) Thanks for the support.
   
 * [Discord](https://discord.com/)
 * [Youtube](https://youtube.com)
@@ -45,7 +45,7 @@ A lot of fun and exitement was in there when I was working on it.
 ## Previews:
 
  - HERE IS THE VIDEO AND UI DEMONSTRATION OF THE EXTENSION
- - I WILL BE PUBLISHING IT ON CHROME WEB STORE SOON.
+ - I WILL PUBLISH THE EXTENSION ON CHROME WEB STORE SOON.
 
 
 
