@@ -9,8 +9,8 @@
 
 - I have creted this extension using API from RapidAPI.
 - This is a simple chrome extension using [![Javascipt](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/) [![Html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.com/) [![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/Overview.en.html).
-- I used Fetch to make the API call and stored them dynamically in <select> html tag as drropdown.
-- You can check out the [Manifest](https://github.com/souvik-wizard/Translator_Chrome-Extension/blob/master/manifest.json) here for this extension, it is required to make a chrome extension.
+- I used Fetch to make the API call and stored them dynamically in <select> html tag as dropdown.
+- You can check out the [!Manifest](https://github.com/souvik-wizard/Translator_Chrome-Extension/blob/master/manifest.json) here for this extension, it is required to make a chrome extension.
 
 ## Usage:
 
