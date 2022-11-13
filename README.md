@@ -16,7 +16,8 @@
 ## Usage:
 
 - This extension can be helpful for those who usually use internet(google) to translate their text to know the actual meaning in their preferable language.
-- This will definitely gonna save your time.
+- There is a copy to clipboard button also for saving the output into clipboard for further use.
+- This extension will definitely gonna save your time.
 
 ## Contributing:
 
