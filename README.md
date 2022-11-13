@@ -20,7 +20,6 @@
 ## Contributing
 
 Contributions makes the open source community such an amazing place to learn, inspire, create and explore more. Any contributions you make are **greatly appreciated**.
-
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
@@ -34,6 +33,7 @@ Don't forget to give the project a star! Thanks again!
 
 After learning process, projects converts that leaning meterial to experiences.
 A lot of fun and exitement was in there when I was working on it.
+
 * The acknowledgement goes to [Tuhin](https://github.com/TuhinBar) for helping me.
   
 * [RapidAPI](https://rapidapi.com/hub)
@@ -46,8 +46,4 @@ A lot of fun and exitement was in there when I was working on it.
  - HERE IS THE VIDEO AND UI DEMONSTRATION OF THE EXTENSION
  - I WILL BE PUBLISHING IT ON CHROME WEB STORE SOON.
 
-
-![Ui](https://user-images.githubusercontent.com/103851921/201515061-550d78d3-e53a-4df9-b908-01b3f839036b.png)
-
-https://user-images.githubusercontent.com/103851921/201514780-e079de47-08a6-468d-a89b-5edede5c92df.mp4
 
