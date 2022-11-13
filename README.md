@@ -33,8 +33,8 @@ Don't forget to give the project a star! Thanks again!
 
 ## Acknowledgments:
 
--After the learning process, projects converts that leaning meterial into experiences.
--A lot of fun and exitement was in there when I was working on it.
+- After the learning process, projects converts that leaning meterial into experiences.
+- A lot of fun and exitement was in there when I was working on it.
 
 * Thanks for the support [Tuhin](https://github.com/TuhinBar) and [Arian](https://github.com/arian0zen).
   
