@@ -1,5 +1,3 @@
-# Documentation :
-
 ## Introduction :
 
 - This is a very useful chrome extension for everyone who usually uses the internet(google) to translate their text.
