@@ -1,6 +1,6 @@
 ## Introduction :
 
-- This is a very useful chrome extension for everyone who usually uses the internet(google) to translate their text.
+- This is a very useful chrome extension for everyone who usually use the internet(google) to translate their text.
 - There are total 112 languages (including Indian languages) where you can translate your text.
  
 ## Process :
