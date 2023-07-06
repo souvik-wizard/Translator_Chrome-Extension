@@ -34,7 +34,6 @@ Don't forget to give the project a star! Thanks again!
  After the learning process, projects converts that leaning meterial into experiences.
  A lot of fun and exitement was in there when I was working on it.
 
-* Thanks for the support [Tuhin](https://github.com/TuhinBar).
   
 <!-- * [Discord](https://discord.com/)
 * [Youtube](https://youtube.com)
